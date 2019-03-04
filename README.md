@@ -11,3 +11,4 @@ Webotron currently has the following features:
 
 - List buckets
 - List-bucket-objects
+- Setup-bucket
