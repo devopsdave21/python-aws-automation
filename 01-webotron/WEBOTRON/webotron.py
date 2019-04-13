@@ -68,7 +68,7 @@ def setup_bucket(bucket):
             'Suffix': 'index.html'
         }
     })
-
+    
     return
 
 if __name__ == '__main__':
