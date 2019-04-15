@@ -140,7 +140,6 @@ def gen_etag(self, path):
         content_type = mimetypes.guess_type(key)[0] or 'text/plain'
         etag = self.gen_etag(path)
         if self.manifest.get(key, '') == etag:
-            print("Skipping {}, etags match".format(key))
             return
         return bucket.upload_file(
             path,
